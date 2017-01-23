@@ -13,3 +13,10 @@
 *.cache/
 .DS_Store
 *__pycache__/
+*.pyc
+
+# logs
+*.log
+
+# ctags
+tags

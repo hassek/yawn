@@ -83,7 +83,10 @@ setup(
     # for example:
     # $ pip install -e .[dev,test]
     extras_require={
-        # 'dev': ['check-manifest'],
+        'dev': [
+            'ipython',
+            'ipdb',
+        ],
         'test': [
             'coverage',
             'pytest',
